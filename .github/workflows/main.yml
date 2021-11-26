@@ -52,6 +52,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Out Repo
+        uses: actions/checkout@v2
       - name: Install Node packages
         run: npm install
       - name: Deploy to GitHub Pages
