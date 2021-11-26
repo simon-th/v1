@@ -7,7 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Version 2021-11-26 13:14</p>
+        <p>Version 2021-11-26 13:45</p>
+        <p>Deployed using CI/CD</p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
