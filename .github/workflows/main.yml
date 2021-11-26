@@ -6,9 +6,9 @@ name: CI to Docker Hub
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 
-      - name: Check Out Repo 
+      - name: Check Out Repo
         uses: actions/checkout@v2
 
       - name: Login to Docker Hub
@@ -48,6 +48,11 @@ jobs:
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
-        
-      - name: Deploy GitHub Pages
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Node packages
+        run: npm install
+      - name: Deploy to GitHub Pages
         run: npm run deploy
