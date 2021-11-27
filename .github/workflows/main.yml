@@ -71,11 +71,6 @@ jobs:
         with:
           node-version: 16.13
 
-      - name: Configure GitHub
-        env:
-          name: ${{ secrets.GITHUB_NAME }}
-          email: ${{ secrets.GITHUB_EMAIL }}
-
       - name: Install NPM packages
         run: npm ci
 
