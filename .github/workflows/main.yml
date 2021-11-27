@@ -85,9 +85,6 @@ jobs:
           name: production-files
           path: ./build
 
-      - name: Deploy to GitHub Pages
-        run: npm run deploy
-
   deploy-gh-pages:
     needs: build-gh-pages
     runs-on: ubuntu-latest
