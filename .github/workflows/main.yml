@@ -73,6 +73,13 @@ jobs:
 
       - name: Install NPM packages
         run: npm install
+
+      - name: Format files
+        run: npm run format
+
+      - name: Lint files
+        run: npm run lint
+
       - name: Build project
         run: npm run build
 
