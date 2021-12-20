@@ -1,17 +1,17 @@
 :root {
-  --site-bg-color: #09212C;
-  --site-primary-text: #FFFAF0;
-  --site-secondary-text: #87BABD;
-  --site-tertiary-text: #87989A;
-  --site-accent-teal: #439FB1;
-  --site-accent-orange: #F78573;
-  --site-hover: #FFFFFF;
+  --site-bg-color: #09212c;
+  --site-primary-text: #fffaf0;
+  --site-secondary-text: #87babd;
+  --site-tertiary-text: #87989a;
+  --site-accent-teal: #439fb1;
+  --site-accent-orange: #f78573;
+  --site-hover: #ffffff;
 }
 
 .Base {
   background-color: var(--site-bg-color);
   color: var(--site-primary-text);
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 .Main-container {
