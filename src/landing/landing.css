@@ -1,0 +1,42 @@
+.Welcome-text {
+  margin: 0;
+  font-size: clamp(36px, 9vw, 72px);
+  font-weight: 700;
+}
+
+.Welcome-subtext {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(12px, 3vw, 24px);
+  letter-spacing: 0.2em;
+}
+
+.Landing-links-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Landing-links {
+  margin: 0;
+  font-size: clamp(12px, 3vw, 24px);
+  font-weight: 700;
+}
+
+.Link-swe {
+  color: var(--site-accent-orange);
+}
+
+.Link-photo {
+  color: var(--site-accent-teal);
+}
+
+.Link-travel {
+  color: var(--site-secondary-text);
+}
+
+.Link-music {
+  color: var(--site-tertiary-text);
+}
