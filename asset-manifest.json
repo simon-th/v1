@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.54c09180.chunk.css",
-    "main.js": "/site/static/js/main.883a28c8.chunk.js",
-    "main.js.map": "/site/static/js/main.883a28c8.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.82b040ec.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.82b040ec.js.map",
+    "main.css": "/site/static/css/main.5b845ba3.chunk.css",
+    "main.js": "/site/static/js/main.3d1dceb8.chunk.js",
+    "main.js.map": "/site/static/js/main.3d1dceb8.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.902a8e61.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.902a8e61.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/site/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.63b85a77.chunk.js": "/site/static/js/2.63b85a77.chunk.js",
-    "static/js/2.63b85a77.chunk.js.map": "/site/static/js/2.63b85a77.chunk.js.map",
-    "static/js/3.68fc3003.chunk.js": "/site/static/js/3.68fc3003.chunk.js",
-    "static/js/3.68fc3003.chunk.js.map": "/site/static/js/3.68fc3003.chunk.js.map",
+    "static/js/2.8e2234eb.chunk.js": "/site/static/js/2.8e2234eb.chunk.js",
+    "static/js/2.8e2234eb.chunk.js.map": "/site/static/js/2.8e2234eb.chunk.js.map",
+    "static/js/3.d6e129d1.chunk.js": "/site/static/js/3.d6e129d1.chunk.js",
+    "static/js/3.d6e129d1.chunk.js.map": "/site/static/js/3.d6e129d1.chunk.js.map",
     "index.html": "/site/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/site/static/css/2.a75f5a2c.chunk.css.map",
-    "static/css/main.54c09180.chunk.css.map": "/site/static/css/main.54c09180.chunk.css.map",
-    "static/js/2.63b85a77.chunk.js.LICENSE.txt": "/site/static/js/2.63b85a77.chunk.js.LICENSE.txt"
+    "static/css/main.5b845ba3.chunk.css.map": "/site/static/css/main.5b845ba3.chunk.css.map",
+    "static/js/2.8e2234eb.chunk.js.LICENSE.txt": "/site/static/js/2.8e2234eb.chunk.js.LICENSE.txt",
+    "static/media/github.bd63012b.svg": "/site/static/media/github.bd63012b.svg",
+    "static/media/instagram.8c3b6160.svg": "/site/static/media/instagram.8c3b6160.svg",
+    "static/media/linkedin.71db27cf.svg": "/site/static/media/linkedin.71db27cf.svg",
+    "static/media/spotify.07cb11f2.svg": "/site/static/media/spotify.07cb11f2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82b040ec.js",
+    "static/js/runtime-main.902a8e61.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.63b85a77.chunk.js",
-    "static/css/main.54c09180.chunk.css",
-    "static/js/main.883a28c8.chunk.js"
+    "static/js/2.8e2234eb.chunk.js",
+    "static/css/main.5b845ba3.chunk.css",
+    "static/js/main.3d1dceb8.chunk.js"
   ]
 }
