@@ -1,0 +1,34 @@
+{
+  "workSamples": [
+    {
+      "title": "Personal Website",
+      "description": "The one you’re viewing right now! (head over to the Photography and Travel pages for more cool stuff)",
+      "technologies": "Node.js (Express.js), React, Google Cloud, MongoDb"
+    },
+    {
+      "title": "Federated Learning Under Resource Constraints",
+      "description": "Cloud-based, distributed machine learning system",
+      "technologies": "Python (PyTorch)"
+    },
+    {
+      "title": "Explocation",
+      "description": "Web app to explore local events on an interactive map",
+      "technologies": "Node.js (Express.js), React, Google Cloud, MongoDb"
+    },
+    {
+      "title": "Spotify Data Analysis v2",
+      "description": "Exploratory data analysis on identifying features that determine a song's success based on Spotify streaming data.",
+      "technologies": "Python (NumPy, Matplotlib, SciKitLearn, CatBoost)"
+    },
+    {
+      "title": "Slime vs Me, Myself & I",
+      "description": "Exploratory analysis of augmented reinforcement learning algorithms using OpenAI Gym",
+      "technologies": "Python (OpenAI Gym)"
+    },
+    {
+      "title": "Spotify Data Analysis",
+      "description": "Predicting personal preference of a song by analyzing playlist data",
+      "technologies": "Python (NumPy, Matplotlib, Seaborn, Scikitlearn)"
+    }
+  ]
+}

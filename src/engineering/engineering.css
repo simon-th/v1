@@ -1,0 +1,24 @@
+.Dev-navbar-link {
+  color: var(--site-secondary-text);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: clamp(9px, 2vw, 18px);
+}
+
+.Dev-navbar-link:hover {
+  color: var(--site-hover);
+}
+
+.Dev-padded-section {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.Work-sample {
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  border-color: var(--site-accent-teal);
+  border-width: 2px;
+  border-style: solid;
+}

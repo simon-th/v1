@@ -1,0 +1,33 @@
+{
+  "intro": [
+    "Hi! My name is Simon and I’m a recently graduated software engineer based in Austin, TX. I love building solutions to complex problems, and I love learning as much as I can in the process.",
+    "I recently graduated from UT Austin, where I had the opportunity to conduct research on a neural network compression model, teach the fundamentals of software to underclassmen, and work on some really cool projects ranging from reinforcement learning to web development. I also spent a summer at Amazon building a data pipeline and learning all about AWS.",
+    "Right now, I am working as a Software Engineer at Amazon, where I work on building cloud-native, highly scalable software to improve safety for thousands of Amazon employees around the globe.",
+    "I work on this website in my spare time, partly to showcase my work, but mostly to learn more about React, Docker, and all the cool things that they can do!"
+  ],
+  "languages": [
+    "Python",
+    "Java",
+    "Kotlin",
+    "JavaScript",
+    "TypeScript",
+    "C/C++"
+  ],
+  "softwareTech": [
+    "Git",
+    "Amazon Web Services",
+    "React",
+    "Node.js",
+    "Docker",
+    "Google Cloud"
+  ],
+  "dataTech": [
+    "PyTorch",
+    "SciKit Learn",
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Seaborn",
+    "OpenAI Gym"
+  ]
+}

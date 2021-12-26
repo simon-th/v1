@@ -28,22 +28,6 @@
   font-weight: 700;
 }
 
-.Link-swe {
-  color: var(--site-accent-orange);
-}
-
-.Link-photo {
-  color: var(--site-accent-teal);
-}
-
-.Link-travel {
-  color: var(--site-secondary-text);
-}
-
-.Link-music {
-  color: var(--site-tertiary-text);
-}
-
 .Social-icon-container {
   margin-top: clamp(2vh, 160px, 20vh);
 }

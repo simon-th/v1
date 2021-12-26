@@ -1,0 +1,46 @@
+{
+  "currentPosition": {
+    "company": "Amazon",
+    "position": "Software Development Engineer I",
+    "time": "Aug '21 - Now",
+    "details": [
+      "Build AWS-based, cloud-native, full-stack systems to support modules in a large-scale web app",
+      "Design scalable systems to create customer-facing features and improve existing system latency",
+      "Communicate closely with external teams to understand product needs, estimate timelines, and ensure consistency in common code packages",
+      "Maintain fully automated continuous deployment pipelines by writing unit tests and integration tests, to reduce developer effort and make seamless deployments",
+      "Implemented a data pipeline using Kotlin, AWS Services (Lambda, SNS, SQS) and a big-data platform to automate a task that took 60 developer days annually"
+    ]
+  },
+  "previousPositions": [
+    {
+      "company": "Amazon",
+      "position": "Software Development Engineer Intern",
+      "time": "Jun '20 - Aug '20",
+      "details": []
+    },
+    {
+      "company": "SLAM Lab (UT Austin ECE)",
+      "position": "Undergraduate Research Assistant",
+      "time": "May '19 - Aug '19",
+      "details": []
+    },
+    {
+      "company": "UT Austin",
+      "position": "Undergrauate Teaching Assistant",
+      "time": "Jan '20 - May '21",
+      "details": []
+    },
+    {
+      "company": "UT Austin",
+      "position": "Supplemental Instruction Leader",
+      "time": "Sep - Dec '18, Sep - Dec '19",
+      "details": []
+    },
+    {
+      "company": "Eta Kappa Nu Honor Society - Psi Chapter",
+      "position": "President",
+      "time": "Jan '21 - May '21",
+      "details": []
+    }
+  ]
+}
