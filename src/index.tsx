@@ -1,19 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
-import Landing from "./landing/Landing";
-import Engineering from "./engineering/Engineering";
+import Site from "./Site";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/dev" element={<Engineering />} />
-      </Routes>
-    </BrowserRouter>
+    <Site />
   </React.StrictMode>,
   document.getElementById("root")
 );
