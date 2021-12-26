@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/site/static/css/main.2084ea61.chunk.css",
-    "main.js": "/site/static/js/main.274ac4ae.chunk.js",
-    "main.js.map": "/site/static/js/main.274ac4ae.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.126dba37.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.126dba37.js.map",
+    "main.js": "/site/static/js/main.fe7d6739.chunk.js",
+    "main.js.map": "/site/static/js/main.fe7d6739.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.1532cc1b.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.1532cc1b.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/site/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.2b39bb69.chunk.js": "/site/static/js/2.2b39bb69.chunk.js",
-    "static/js/2.2b39bb69.chunk.js.map": "/site/static/js/2.2b39bb69.chunk.js.map",
-    "static/js/3.f98189ad.chunk.js": "/site/static/js/3.f98189ad.chunk.js",
-    "static/js/3.f98189ad.chunk.js.map": "/site/static/js/3.f98189ad.chunk.js.map",
+    "static/js/2.d523886b.chunk.js": "/site/static/js/2.d523886b.chunk.js",
+    "static/js/2.d523886b.chunk.js.map": "/site/static/js/2.d523886b.chunk.js.map",
+    "static/js/3.5e7c44c5.chunk.js": "/site/static/js/3.5e7c44c5.chunk.js",
+    "static/js/3.5e7c44c5.chunk.js.map": "/site/static/js/3.5e7c44c5.chunk.js.map",
     "index.html": "/site/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/site/static/css/2.a75f5a2c.chunk.css.map",
     "static/css/main.2084ea61.chunk.css.map": "/site/static/css/main.2084ea61.chunk.css.map",
-    "static/js/2.2b39bb69.chunk.js.LICENSE.txt": "/site/static/js/2.2b39bb69.chunk.js.LICENSE.txt",
+    "static/js/2.d523886b.chunk.js.LICENSE.txt": "/site/static/js/2.d523886b.chunk.js.LICENSE.txt",
     "static/media/github.bd63012b.svg": "/site/static/media/github.bd63012b.svg",
     "static/media/instagram.8c3b6160.svg": "/site/static/media/instagram.8c3b6160.svg",
     "static/media/linkedin.71db27cf.svg": "/site/static/media/linkedin.71db27cf.svg",
     "static/media/spotify.07cb11f2.svg": "/site/static/media/spotify.07cb11f2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.126dba37.js",
+    "static/js/runtime-main.1532cc1b.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.2b39bb69.chunk.js",
+    "static/js/2.d523886b.chunk.js",
     "static/css/main.2084ea61.chunk.css",
-    "static/js/main.274ac4ae.chunk.js"
+    "static/js/main.fe7d6739.chunk.js"
   ]
 }
