@@ -1,8 +1,8 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import "../common/common.css";
-import AboutInfo from "./about.json";
-import "./engineering.css";
+import "../styles/common.css";
+import AboutInfo from "../resources/info/about.json";
+import "../styles/engineering.css";
 
 interface SkillProps {
   skillName: string;
@@ -79,7 +79,9 @@ const SkillList = function render(props: SkillProps) {
 const About = function render() {
   return (
     <div className="gap-3">
-      <h1 className="Site-h1">About Me</h1>
+      <p className="Welcome-text h1">Hi,</p>
+      <h1 className="Welcome-text">I&apos;m Simon Hoque.</h1>
+      <h2 className="Welcome-subtext">Software Engineer @ Amazon</h2>
       {getIntro()}
       <p className="Site-small-text Color-secondary-text">
         Full list of skills I&apos;ve learned

@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Container, Col, Row } from "react-bootstrap";
-import WorkSamples from "./work.json";
-import "./engineering.css";
-import "../common/common.css";
+import WorkSamples from "../resources/info/work.json";
+import "../styles/engineering.css";
+import "../styles/common.css";
 
 interface WorkSampleProps {
   title: string;

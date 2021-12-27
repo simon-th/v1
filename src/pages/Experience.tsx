@@ -1,6 +1,6 @@
 import React from "react";
-import "../common/common.css";
-import ExperienceInfo from "./experience.json";
+import "../styles/common.css";
+import ExperienceInfo from "../resources/info/experience.json";
 
 interface PositionProps {
   company: string;

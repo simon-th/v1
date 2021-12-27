@@ -1,3 +1,18 @@
+.Welcome-text {
+  margin: 0;
+  font-size: clamp(36px, 8vw, 72px);
+  font-weight: 700;
+}
+
+.Welcome-subtext {
+  margin: 0;
+  margin-top: clamp(1vh, 12px, 3vh);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: clamp(12px, 2.67vw, 24px);
+  letter-spacing: 0.2em;
+}
+
 .Dev-navbar-link {
   color: var(--site-secondary-text);
   text-transform: uppercase;
@@ -21,4 +36,13 @@
   border-color: var(--site-accent-teal);
   border-width: 2px;
   border-style: solid;
+}
+
+.Social-icon-container {
+  margin-top: clamp(2vh, 160px, 20vh);
+}
+
+.Social-icon {
+  width: clamp(12px, 3vw, 24px);
+  height: clamp(12px, 3vw, 24px);
 }

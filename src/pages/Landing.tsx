@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../common/common.css";
-import "./landing.css";
+import "../styles/common.css";
+import "../styles/landing.css";
 
 import github from "../resources/icons/github.svg";
 import linkedin from "../resources/icons/linkedin.svg";

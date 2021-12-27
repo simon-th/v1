@@ -3,8 +3,8 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import About from "./About";
 import Experience from "./Experience";
 import Work from "./Work";
-import "../common/common.css";
-import "./engineering.css";
+import "../styles/common.css";
+import "../styles/engineering.css";
 
 const Engineering = function render() {
   return (
