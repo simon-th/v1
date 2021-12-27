@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/v1/static/css/main.2084ea61.chunk.css",
-    "main.js": "/v1/static/js/main.3cbd753e.chunk.js",
-    "main.js.map": "/v1/static/js/main.3cbd753e.chunk.js.map",
-    "runtime-main.js": "/v1/static/js/runtime-main.38cbdd74.js",
-    "runtime-main.js.map": "/v1/static/js/runtime-main.38cbdd74.js.map",
+    "main.js": "/v1/static/js/main.0e82503a.chunk.js",
+    "main.js.map": "/v1/static/js/main.0e82503a.chunk.js.map",
+    "runtime-main.js": "/v1/static/js/runtime-main.71bc97a3.js",
+    "runtime-main.js.map": "/v1/static/js/runtime-main.71bc97a3.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/v1/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.2b39bb69.chunk.js": "/v1/static/js/2.2b39bb69.chunk.js",
-    "static/js/2.2b39bb69.chunk.js.map": "/v1/static/js/2.2b39bb69.chunk.js.map",
-    "static/js/3.f98189ad.chunk.js": "/v1/static/js/3.f98189ad.chunk.js",
-    "static/js/3.f98189ad.chunk.js.map": "/v1/static/js/3.f98189ad.chunk.js.map",
+    "static/js/2.12987f8b.chunk.js": "/v1/static/js/2.12987f8b.chunk.js",
+    "static/js/2.12987f8b.chunk.js.map": "/v1/static/js/2.12987f8b.chunk.js.map",
+    "static/js/3.5e7c44c5.chunk.js": "/v1/static/js/3.5e7c44c5.chunk.js",
+    "static/js/3.5e7c44c5.chunk.js.map": "/v1/static/js/3.5e7c44c5.chunk.js.map",
     "index.html": "/v1/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/v1/static/css/2.a75f5a2c.chunk.css.map",
     "static/css/main.2084ea61.chunk.css.map": "/v1/static/css/main.2084ea61.chunk.css.map",
-    "static/js/2.2b39bb69.chunk.js.LICENSE.txt": "/v1/static/js/2.2b39bb69.chunk.js.LICENSE.txt",
+    "static/js/2.12987f8b.chunk.js.LICENSE.txt": "/v1/static/js/2.12987f8b.chunk.js.LICENSE.txt",
     "static/media/github.bd63012b.svg": "/v1/static/media/github.bd63012b.svg",
     "static/media/instagram.8c3b6160.svg": "/v1/static/media/instagram.8c3b6160.svg",
     "static/media/linkedin.71db27cf.svg": "/v1/static/media/linkedin.71db27cf.svg",
     "static/media/spotify.07cb11f2.svg": "/v1/static/media/spotify.07cb11f2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.38cbdd74.js",
+    "static/js/runtime-main.71bc97a3.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.2b39bb69.chunk.js",
+    "static/js/2.12987f8b.chunk.js",
     "static/css/main.2084ea61.chunk.css",
-    "static/js/main.3cbd753e.chunk.js"
+    "static/js/main.0e82503a.chunk.js"
   ]
 }
