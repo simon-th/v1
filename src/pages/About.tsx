@@ -1,7 +1,8 @@
 import React from "react";
-import { Row } from "react-bootstrap";
-import "../styles/common.css";
+import { Row, Col, Button } from "react-bootstrap";
 import AboutInfo from "../resources/info/about.json";
+import portait from "../resources/images/portrait.jpg";
+import "../styles/common.css";
 import "../styles/engineering.css";
 
 interface SkillProps {
@@ -11,7 +12,7 @@ interface SkillProps {
 function getIntro(): JSX.Element[] {
   const intro: JSX.Element[] = [];
   AboutInfo.intro.forEach((paragraph) => {
-    intro.push(<p className="Site-p">{paragraph}</p>);
+    intro.push(<p className="Site-small-p">{paragraph}</p>);
   });
   return intro;
 }
@@ -69,7 +70,7 @@ function getTitle(skillName: string): JSX.Element {
 const SkillList = function render(props: SkillProps) {
   const { skillName } = props;
   return (
-    <div>
+    <div style={{ paddingBottom: "10px" }}>
       {getTitle(skillName)}
       {getSkills(skillName)}
     </div>
@@ -77,19 +78,41 @@ const SkillList = function render(props: SkillProps) {
 };
 
 const About = function render() {
+  const [showSkills, setShowSkills] = React.useState(false);
   return (
     <div className="gap-3">
       <p className="Welcome-text h1">Hi,</p>
       <h1 className="Welcome-text">I&apos;m Simon Hoque.</h1>
       <h2 className="Welcome-subtext">Software Engineer @ Amazon</h2>
-      {getIntro()}
-      <p className="Site-small-text Color-secondary-text">
-        Full list of skills I&apos;ve learned
-      </p>
-      <Row className="gap-2" xs="1" sm="1" md="3" lg="3" xl="3" xxl="3">
-        <SkillList skillName="languages" />
-        <SkillList skillName="softwareTech" />
-        <SkillList skillName="dataTech" />
+      <Row className="gap-3">
+        <Col xs={4} sm={3}>
+          <img src={portait} alt="portrait" className="Portrait" />
+        </Col>
+        <Col xs={12} sm={8}>
+          {getIntro()}
+          <Button
+            className="Site-small-text Color-secondary-text Dropdown-button p-0"
+            variant="link"
+            onClick={() => setShowSkills(!showSkills)}
+          >
+            {`${
+              showSkills ? `\u25be` : `\u25b8`
+            } Full list of skills I've learned`}
+          </Button>
+          <div>
+            <Row style={{ visibility: showSkills ? "visible" : "hidden" }}>
+              <Col xs={12} sm={4}>
+                <SkillList skillName="languages" />
+              </Col>
+              <Col xs={12} sm={4}>
+                <SkillList skillName="softwareTech" />
+              </Col>
+              <Col xs={12} sm={4}>
+                <SkillList skillName="dataTech" />
+              </Col>
+            </Row>
+          </div>
+        </Col>
       </Row>
     </div>
   );

@@ -14,6 +14,11 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
+.Portrait {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 .Base {
   height: 100vh;
   display: flex;
@@ -43,12 +48,12 @@ body {
 
 .Site-h3 {
   font-size: clamp(12px, 2.67vw, 24px);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .Site-p {
-  font-size: clamp(12px, 2.67vw, 24px);
-  font-weight: 300;
+  font-size: clamp(10px, 2.5vw, 21px);
+  font-weight: 200;
 }
 
 .Site-small-p {

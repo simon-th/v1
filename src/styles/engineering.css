@@ -1,16 +1,21 @@
 .Welcome-text {
   margin: 0;
-  font-size: clamp(36px, 8vw, 72px);
+  font-size: clamp(32px, 7vw, 64px);
   font-weight: 700;
 }
 
 .Welcome-subtext {
-  margin: 0;
-  margin-top: clamp(1vh, 12px, 3vh);
+  margin-top: clamp(1vh, 12px, 2vh);
   text-transform: uppercase;
   font-weight: 700;
-  font-size: clamp(12px, 2.67vw, 24px);
+  font-size: clamp(10px, 2.5vw, 21px);
   letter-spacing: 0.2em;
+  margin-bottom: clamp(1vw, 40px, 2vh);
+  color: var(--site-accent-teal);
+}
+
+.Dev-navbar {
+  background-color: var(--site-bg-color);
 }
 
 .Dev-navbar-link {
@@ -24,9 +29,15 @@
   color: var(--site-hover);
 }
 
+.First-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 .Dev-padded-section {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .Work-sample {
@@ -45,4 +56,33 @@
 .Social-icon {
   width: clamp(12px, 3vw, 24px);
   height: clamp(12px, 3vw, 24px);
+}
+
+.Dropdown-button {
+  text-decoration: none;
+  border: none;
+}
+
+.Dropdown-button:visited {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+.Dropdown-button:hover {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+.Dropdown-button:active {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+
+.Dropdown-button:focus {
+  color: inherit;
+  text-decoration: none;
+  border: none;
 }
