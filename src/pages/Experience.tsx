@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/common.css";
 import ExperienceInfo from "../resources/info/experience.json";
 
@@ -28,23 +28,25 @@ const Position = function render(props: PositionProps) {
   const [showDetails, setShowDetails] = React.useState(initialDropdownStatus);
   return (
     <div>
-      <div className="d-flex justify-content-between">
-        <Button
-          variant="link"
-          className="Position-dropdown-button Site-h3 p-0"
-          onClick={() => setShowDetails(!showDetails)}
-        >
-          {`${
-            showDetails ? `\u25be` : `\u25b8`
-          }\u00a0\u00a0${position} @ ${company}`}
-        </Button>
-        <h4
-          className="Site-small-text Color-tertiary-text"
-          style={{ paddingLeft: "2vw", whiteSpace: "nowrap" }}
-        >
-          {time}
-        </h4>
-      </div>
+      <Row>
+        <Col>
+          <Button
+            variant="link"
+            className="Position-dropdown-button Site-h3 p-0"
+            onClick={() => setShowDetails(!showDetails)}
+          >
+            <div>
+              <div className="Position-dropdown-arrow">{`${
+                showDetails ? `\u25be` : `\u25b8`
+              }`}</div>
+              <div>{`${position} @ ${company}`}</div>
+            </div>
+          </Button>
+        </Col>
+        <Col xs="3" md="4" className="text-end">
+          <h4 className="Site-small-text Color-tertiary-text">{time}</h4>
+        </Col>
+      </Row>
       {showDetails ? (
         <ul style={{ paddingTop: "6px" }}>{getPositionDetails(details)}</ul>
       ) : null}

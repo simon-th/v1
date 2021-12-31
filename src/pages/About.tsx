@@ -84,11 +84,11 @@ const About = function render() {
       <p className="Welcome-text h1">Hi,</p>
       <h1 className="Welcome-text">I&apos;m Simon Hoque.</h1>
       <h2 className="Welcome-subtext">Software Engineer @ Amazon</h2>
-      <Row className="gap-3">
-        <Col xs={4} sm={3}>
+      <Row className="gap-4 m-0 p-0">
+        <Col xs={4} sm={3} className="p-0 pt-1">
           <img src={portait} alt="portrait" className="Portrait" />
         </Col>
-        <Col xs={12} sm={8}>
+        <Col xs={12} sm={8} className="p-0">
           {getIntro()}
           <Button
             className="Site-small-text Color-secondary-text Dropdown-button p-0"

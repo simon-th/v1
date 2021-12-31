@@ -104,6 +104,10 @@ Nav.Link:hover {
   color: var(--site-hover);
 }
 
+.btn-link {
+  text-align: left;
+}
+
 .btn-link:visited,
 .btn-link:hover,
 .btn-link:active,

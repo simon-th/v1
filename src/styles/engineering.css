@@ -30,8 +30,9 @@
 }
 
 .First-section {
-  padding-top: clamp(5vh, 100px, 10vh);
-  height: 100vh;
+  padding-top: clamp(80px, 3vh, 5vh);
+  padding-bottom: 5vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -64,10 +65,17 @@
   border: none;
 }
 
+.Position-dropdown-arrow {
+  float: left;
+  padding-right: 10px;
+  height: 50px;
+}
+
 .Position-dropdown-button {
   color: inherit;
   text-decoration: none;
   border: none;
+  width: 100%;
 }
 
 .Position-dropdown-button:visited,
