@@ -14,6 +14,11 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
+ul {
+  list-style-position: outside;
+  padding-left: 1.2rem;
+}
+
 .Portrait {
   max-width: 100%;
   border-radius: 10px;
@@ -52,17 +57,17 @@ body {
 }
 
 .Site-p {
-  font-size: clamp(10px, 2.5vw, 21px);
+  font-size: clamp(14px, 2.5vw, 21px);
   font-weight: 200;
 }
 
 .Site-small-p {
-  font-size: clamp(9px, 2vw, 18px);
+  font-size: clamp(13px, 2vw, 18px);
   font-weight: 300;
 }
 
 .Site-small-text {
-  font-size: clamp(7px, 1.56vw, 14px);
+  font-size: clamp(9px, 1.56vw, 14px);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -97,4 +102,13 @@ a:hover {
 
 Nav.Link:hover {
   color: var(--site-hover);
+}
+
+.btn-link:visited,
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+  color: var(--site-hover);
+  text-decoration: none;
+  border: none;
 }
