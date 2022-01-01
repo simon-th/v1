@@ -4,12 +4,14 @@ import WorkSamples from "../resources/info/work.json";
 import "../styles/work.css";
 import "../styles/common.css";
 import gitHubIcon from "../resources/icons/github.svg";
+import externalLinkIcon from "../resources/icons/external_link.svg";
+import docsIcon from "../resources/icons/documentation.svg";
 import createHtmlListFromStringArray from "../util/util-functions";
 
 interface WorkSampleLinkProps {
   gitHub?: string;
-  demo?: string;
   docs?: string;
+  demo?: string;
 }
 
 interface WorkSampleProps {
@@ -34,9 +36,15 @@ function generateLinkIcon(
 
 function generateLinkIcons(links: WorkSampleLinkProps): JSX.Element[] {
   const icons: JSX.Element[] = [];
-  const { gitHub } = links;
+  const { gitHub, demo, docs } = links;
   if (gitHub !== undefined) {
     icons.push(generateLinkIcon(gitHubIcon, gitHub, "Source Code on GitHub"));
+  }
+  if (docs !== undefined) {
+    icons.push(generateLinkIcon(docsIcon, docs, "Documentaiton"));
+  }
+  if (demo !== undefined) {
+    icons.push(generateLinkIcon(externalLinkIcon, demo, "Demo"));
   }
   return icons;
 }
@@ -57,7 +65,7 @@ const WorkSample = function render(props: WorkSampleProps) {
               {createHtmlListFromStringArray(details)}
             </ul>
           </Modal.Body>
-          <Modal.Footer>
+          <Modal.Footer className="gap-2">
             {links != null ? generateLinkIcons(links) : null}
           </Modal.Footer>
         </Modal.Body>

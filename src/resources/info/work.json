@@ -14,7 +14,11 @@
       "title": "Federated Learning Under Resource Constraints",
       "description": "Cloud-based, distributed machine learning system",
       "technologies": "Python (PyTorch)",
-      "details": ["Details coming soon!"],
+      "details": [
+        "Designed and implemented software system in a team of six to locally train neural networks on client devices and aggregate them on a central server",
+        "Implemented user ability to configure neural networks in PyTorch",
+        "Constructed more complex neural network models and fine tuned compression algorithms to improve system performance"
+      ],
       "links": {
         "gitHub": "https://github.com/jzhang27143/federated_rc"
       }
@@ -23,7 +27,11 @@
       "title": "Explocation",
       "description": "Web app to explore local events on an interactive map",
       "technologies": "Node.js (Express.js), React, Google Cloud, MongoDb",
-      "details": ["Details coming soon!"],
+      "details": [
+        "Led team of six members to develop a web app with an interactive map of local events",
+        "Implemented a REST API using Node.js and Express to process React frontend requests, get information from external APIs and query the database",
+        "Designed NoSQL database schema in MongoDB to dynamically store and retrieve user-saved event data"
+      ],
       "links": {
         "gitHub": "https://www.github.com/simon-th/explocation"
       }
@@ -34,7 +42,8 @@
       "technologies": "Python (NumPy, Matplotlib, SciKitLearn, CatBoost)",
       "details": ["Details coming soon!"],
       "links": {
-        "gitHub": "https://www.github.com/simon-th/datahack-2021"
+        "gitHub": "https://www.github.com/simon-th/datahack-2021",
+        "docs": "https://github.com/simon-th/datahack-2021/blob/main/Presentation.pptx"
       }
     },
     {
@@ -50,9 +59,13 @@
       "title": "Spotify Data Analysis",
       "description": "Predicting personal preference of a song by analyzing playlist data",
       "technologies": "Python (NumPy, Matplotlib, Seaborn, Scikitlearn)",
-      "details": ["Details coming soon!"],
+      "details": [
+        "Collected playlist data from Spotify API and organized it using Numpy and Pandas into a format suitable for visualization and applying machine learning algorithms",
+        "Applied different machine learning algorithms on the data using SciKit Learn and TensorFlow and explored their efficacy"
+      ],
       "links": {
-        "gitHub": "https://github.com/simon-th/spotify-data-project"
+        "gitHub": "https://github.com/simon-th/spotify-data-project",
+        "docs": "https://github.com/simon-th/spotify-data-project/blob/master/README.md"
       }
     }
   ]
