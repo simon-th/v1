@@ -67,8 +67,8 @@
 
 .Position-dropdown-arrow {
   float: left;
-  padding-right: 10px;
-  height: 50px;
+  width: 3vh;
+  height: 6vh;
 }
 
 .Position-dropdown-button {
