@@ -91,9 +91,7 @@
 }
 
 .Position-dropdown-arrow {
-  float: left;
   width: clamp(12px, 3vw, 24px);
-  height: 2.5rem;
 }
 
 .Position-dropdown-button {
