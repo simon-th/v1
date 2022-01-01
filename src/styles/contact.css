@@ -1,4 +1,4 @@
-.Landing-links-container {
+.Contact-section {
   margin: 0;
   margin-top: clamp(3vh, 66px, 5vh);
   padding: 0;
@@ -11,10 +11,6 @@
   width: fit-content;
   font-size: clamp(12px, 3vw, 24px);
   font-weight: 700;
-}
-
-.Social-icon-container {
-  margin-top: clamp(2vh, 160px, 20vh);
 }
 
 .Social-icon {

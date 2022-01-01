@@ -1,0 +1,17 @@
+.Position-dropdown-arrow {
+  width: clamp(12px, 3vw, 24px);
+}
+
+.Position-dropdown-button {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+}
+
+.Position-dropdown-button:visited,
+.Position-dropdown-button:hover,
+.Position-dropdown-button:active,
+.Position-dropdown-button:focus {
+  color: var(--site-secondary-text);
+}

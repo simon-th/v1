@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/common.css";
+import "../styles/experience.css";
 import ExperienceInfo from "../resources/info/experience.json";
 import createHtmlListFromStringArray from "../util/util-functions";
 
@@ -24,12 +25,12 @@ const Position = function render(props: PositionProps) {
             className="Position-dropdown-button Site-h3 p-0"
             onClick={() => setShowDetails(!showDetails)}
           >
-            <div>
-              <div className="Position-dropdown-arrow">{`${
+            <Row>
+              <Col xs="1" className="Position-dropdown-arrow">{`${
                 showDetails ? `\u25be` : `\u25b8`
-              }`}</div>
-              <div>{`${position} @ ${company}`}</div>
-            </div>
+              }`}</Col>
+              <Col>{`${position} @ ${company}`}</Col>
+            </Row>
           </Button>
         </Col>
         <Col xs="3" className="text-end">

@@ -1,0 +1,19 @@
+.Work-sample {
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  border-color: var(--site-accent-teal);
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.Work-sample:visited,
+.Work-sample:hover,
+.Work-sample:active,
+.Work-sample:focus {
+  border-color: var(--site-secondary-text);
+  background-color: rgba(255, 255, 255, 0.05);
+}

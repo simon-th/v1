@@ -3,8 +3,9 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import About from "./About";
 import Experience from "./Experience";
 import Work from "./Work";
+import Contact from "./Contact";
 import "../styles/common.css";
-import "../styles/engineering.css";
+import "../styles/main.css";
 
 function scrollToDiv(ref: React.RefObject<HTMLDivElement>) {
   const node = ref.current;
@@ -13,10 +14,11 @@ function scrollToDiv(ref: React.RefObject<HTMLDivElement>) {
   }
 }
 
-const Engineering = function render() {
+const Main = function render() {
   const aboutRef = createRef<HTMLDivElement>();
   const experienceRef = createRef<HTMLDivElement>();
   const workRef = createRef<HTMLDivElement>();
+  const contactRef = createRef<HTMLDivElement>();
   return (
     <div className="Base">
       <Navbar
@@ -33,7 +35,7 @@ const Engineering = function render() {
           <Nav.Link onClick={() => scrollToDiv(workRef)}>
             <p className="Dev-navbar-link">Work</p>
           </Nav.Link>
-          <Nav.Link href="/">
+          <Nav.Link onClick={() => scrollToDiv(contactRef)}>
             <p className="Dev-navbar-link">Contact</p>
           </Nav.Link>
         </Nav>
@@ -48,9 +50,12 @@ const Engineering = function render() {
         <div className="Dev-padded-section" ref={workRef}>
           <Work />
         </div>
+        <div className="Dev-padded-section" ref={contactRef}>
+          <Contact />
+        </div>
       </Container>
     </div>
   );
 };
 
-export default Engineering;
+export default Main;

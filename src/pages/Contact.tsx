@@ -1,34 +1,41 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "../styles/common.css";
-import "../styles/landing.css";
+import "../styles/contact.css";
 
 import github from "../resources/icons/github.svg";
 import linkedin from "../resources/icons/linkedin.svg";
 import instagram from "../resources/icons/instagram.svg";
 import spotify from "../resources/icons/spotify.svg";
 
-const Landing = function render() {
+const Contact = function render() {
   return (
-    <div className="Base">
-      <Container className="Main-container flex-grow-1">
-        <p className="Welcome-text h1">Hi,</p>
-        <h1 className="Welcome-text">I&apos;m Simon Hoque.</h1>
-        <h2 className="Welcome-subtext">Software Engineer @ Amazon</h2>
-        <Container className="Landing-links-container">
-          <Link to="/dev" className="Color-accent-orange Landing-links">
-            Software Engineering
-          </Link>
-          <Link to="/photo" className="Color-accent-teal Landing-links">
-            Photography
-          </Link>
-          <Link to="/travel" className="Color-secondary-text Landing-links">
-            Travel
-          </Link>
-        </Container>
+    <div>
+      <h1 className="Site-h1">Contact</h1>
+      <Container className="Contact-section">
+        <h2 className="Site-h3">Connect with me:</h2>
+        <a className="Site-p" href="mailto:simon.thoque@gmail.com">
+          simon.thoque@gmail.com
+        </a>
+      </Container>
+      <Container className="Contact-section">
+        <h2 className="Site-h3">Check out my other websites and socials!</h2>
+        <a
+          href="https://www.simon-th.github.io/photo"
+          className="Color-accent-orange Landing-links"
+        >
+          Photography
+        </a>
+        <a
+          href="https://www.simon-th.github.io/photo"
+          className="Color-accent-teal Landing-links"
+        >
+          Travel
+        </a>
+      </Container>
+      <Container className="Contact-section p-0">
         <Row
-          className="gap-4 Social-icon-container"
+          className="gap-4"
           xs="auto"
           sm="auto"
           md="auto"
@@ -54,4 +61,4 @@ const Landing = function render() {
   );
 };
 
-export default Landing;
+export default Contact;

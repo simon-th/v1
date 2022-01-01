@@ -1,0 +1,27 @@
+.Dev-navbar {
+  background-color: var(--site-bg-color);
+}
+
+.Dev-navbar-link {
+  color: var(--site-secondary-text);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: clamp(9px, 2vw, 18px);
+}
+
+.Dev-navbar-link:hover {
+  color: var(--site-hover);
+}
+
+.First-section {
+  padding-top: clamp(80px, 3vh, 5vh);
+  padding-bottom: 5vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.Dev-padded-section {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
