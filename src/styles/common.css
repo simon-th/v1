@@ -100,8 +100,15 @@ ul {
   color: var(--site-accent-orange);
 }
 
-a:hover {
+a:hover,
+a:focus,
+a:active {
   color: var(--site-hover);
+}
+
+a,
+a:visited {
+  color: inherit;
 }
 
 Nav.Link:hover {
@@ -126,4 +133,23 @@ Nav.Link:hover {
   color: var(--site-hover);
   text-decoration: none;
   border: none;
+}
+
+.Work-sample-icon {
+  width: clamp(12px, 3vw, 24px);
+  height: clamp(12px, 3vw, 24px);
+}
+
+.modal-content {
+  margin-top: 50%;
+  background-color: var(--site-bg-color);
+  border-radius: 0.5rem;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
 }

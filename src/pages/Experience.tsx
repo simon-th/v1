@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/common.css";
+import "../styles/experience.css";
 import ExperienceInfo from "../resources/info/experience.json";
 import createHtmlListFromStringArray from "../util/util-functions";
 

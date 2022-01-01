@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, Col, Row, Modal } from "react-bootstrap";
 import WorkSamples from "../resources/info/work.json";
-import "../styles/engineering.css";
+import "../styles/work.css";
 import "../styles/common.css";
 import gitHubIcon from "../resources/icons/github.svg";
 import createHtmlListFromStringArray from "../util/util-functions";

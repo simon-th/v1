@@ -3,7 +3,7 @@ import { Row, Col, Button } from "react-bootstrap";
 import AboutInfo from "../resources/info/about.json";
 import portait from "../resources/images/portrait.jpg";
 import "../styles/common.css";
-import "../styles/engineering.css";
+import "../styles/about.css";
 
 interface SkillProps {
   skillName: string;
