@@ -19,7 +19,10 @@ const Engineering = function render() {
   const workRef = createRef<HTMLDivElement>();
   return (
     <div className="Base">
-      <Navbar className="Dev-navbar justify-content-center" sticky="top">
+      <Navbar
+        className="Dev-navbar justify-content-center pt-3 pb-0"
+        sticky="top"
+      >
         <Nav className="gap-5">
           <Nav.Link onClick={() => scrollToDiv(aboutRef)}>
             <p className="Dev-navbar-link">About</p>

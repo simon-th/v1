@@ -16,31 +16,52 @@
       "company": "Amazon",
       "position": "Software Development Engineer Intern",
       "time": "Jun '20 - Aug '20",
-      "details": []
+      "details": [
+        "Built data pipelines to collect CI/CD and Git version control data, and used that data to calculate key DevOps metrics for the team",
+        "Utilized AWS (Lambda, Redis, SQS) and Node.js (TypeScript) to design and implement a serverless system to collect CI/CD data",
+        "Deployed a Docker container containing a Python script to collect version control data",
+        "Employed good software practices and utilized a continuous deployment pipeline to seamlessly make additions to system",
+        "Collaborated closely with teammates to maintain consistency across the codebase and ensure proper handling of future errors"
+      ]
     },
     {
       "company": "SLAM Lab (UT Austin ECE)",
       "position": "Undergraduate Research Assistant",
       "time": "May '19 - Aug '19",
-      "details": []
+      "details": [
+        "Developed a compressed object detection neural network using PyTorch to be deployed on an IoT runtime system",
+        "Implemented compression by performing knowledge distillation on the YOLO object detection model to train a smaller neural network",
+        "Achieved up to 5x speedup on original YOLO model and optimized the compressed model’s runtime while maintaining its accuracy"
+      ]
     },
     {
       "company": "UT Austin",
       "position": "Undergrauate Teaching Assistant",
       "time": "Jan '20 - May '21",
-      "details": []
+      "details": [
+        "Led recitation sessions, held office hours and lectured in absence of professor to effectively teach class material to students with various programming backgrounds",
+        "Redesigned course components to integrate more hands-on programming and develop students’ collaborative skills",
+        "Developed in-depth exercises and demos to teach students fundamental software engineering concepts"
+      ]
     },
     {
       "company": "UT Austin",
       "position": "Supplemental Instruction Leader",
       "time": "Sep - Dec '18, Sep - Dec '19",
-      "details": []
+      "details": [
+        "Facilitated learning by encouraging collaborative problem solving to engage students",
+        "Prepared lessons to maintain pace and depth of instruction that suited lectures and exams",
+        "Mentored newer SI Leaders and communicated with supervisors to ensure that appropriate material was being taught"
+      ]
     },
     {
       "company": "Eta Kappa Nu Honor Society - Psi Chapter",
       "position": "President",
       "time": "Jan '21 - May '21",
-      "details": []
+      "details": [
+        "Led officer team to organize events that connect organization members to industry and academic resources",
+        "Coordinated with faculty and alumni to host department-wide events"
+      ]
     }
   ]
 }
