@@ -3,32 +3,57 @@
     {
       "title": "Personal Website",
       "description": "The one you’re viewing right now! (head over to the Photography and Travel pages for more cool stuff)",
-      "technologies": "Node.js (Express.js), React, Google Cloud, MongoDb"
+      "technologies": "React",
+      "details": ["Details coming soon!"],
+      "links": {
+        "gitHub": "https://www.github.com/simon-th/simon-th.github.io",
+        "demo": "https://simon-th.github.io"
+      }
     },
     {
       "title": "Federated Learning Under Resource Constraints",
       "description": "Cloud-based, distributed machine learning system",
-      "technologies": "Python (PyTorch)"
+      "technologies": "Python (PyTorch)",
+      "details": ["Details coming soon!"],
+      "links": {
+        "gitHub": "https://github.com/jzhang27143/federated_rc"
+      }
     },
     {
       "title": "Explocation",
       "description": "Web app to explore local events on an interactive map",
-      "technologies": "Node.js (Express.js), React, Google Cloud, MongoDb"
+      "technologies": "Node.js (Express.js), React, Google Cloud, MongoDb",
+      "details": ["Details coming soon!"],
+      "links": {
+        "gitHub": "https://www.github.com/simon-th/explocation"
+      }
     },
     {
       "title": "Spotify Data Analysis v2",
       "description": "Exploratory data analysis on identifying features that determine a song's success based on Spotify streaming data.",
-      "technologies": "Python (NumPy, Matplotlib, SciKitLearn, CatBoost)"
+      "technologies": "Python (NumPy, Matplotlib, SciKitLearn, CatBoost)",
+      "details": ["Details coming soon!"],
+      "links": {
+        "gitHub": "https://www.github.com/simon-th/datahack-2021"
+      }
     },
     {
       "title": "Slime vs Me, Myself & I",
       "description": "Exploratory analysis of augmented reinforcement learning algorithms using OpenAI Gym",
-      "technologies": "Python (OpenAI Gym)"
+      "technologies": "Python (OpenAI Gym)",
+      "details": ["Details coming soon!"],
+      "links": {
+        "gitHub": "https://github.com/simon-th/dsl-final-project"
+      }
     },
     {
       "title": "Spotify Data Analysis",
       "description": "Predicting personal preference of a song by analyzing playlist data",
-      "technologies": "Python (NumPy, Matplotlib, Seaborn, Scikitlearn)"
+      "technologies": "Python (NumPy, Matplotlib, Seaborn, Scikitlearn)",
+      "details": ["Details coming soon!"],
+      "links": {
+        "gitHub": "https://github.com/simon-th/spotify-data-project"
+      }
     }
   ]
 }

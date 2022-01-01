@@ -49,15 +49,40 @@
   border-color: var(--site-accent-teal);
   border-width: 2px;
   border-style: solid;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
 }
 
-.Social-icon-container {
-  margin-top: clamp(2vh, 160px, 20vh);
+.Work-sample:visited,
+.Work-sample:hover,
+.Work-sample:active,
+.Work-sample:focus {
+  border-color: var(--site-secondary-text);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
-.Social-icon {
+.Work-sample-icon {
   width: clamp(12px, 3vw, 24px);
   height: clamp(12px, 3vw, 24px);
+}
+
+.modal-content {
+  margin-top: 50%;
+  background-color: var(--site-bg-color);
+  border-radius: 0.5rem;
+}
+
+.modal-header {
+  border-bottom: 0;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.btn-close {
+  color: --var(--site-tertiary-text);
 }
 
 .Dropdown-button {

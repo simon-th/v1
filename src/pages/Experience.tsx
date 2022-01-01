@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../styles/common.css";
 import ExperienceInfo from "../resources/info/experience.json";
+import createHtmlListFromStringArray from "../util/util-functions";
 
 interface PositionProps {
   company: string;
@@ -9,18 +10,6 @@ interface PositionProps {
   time: string;
   details: string[];
   initialDropdownStatus: boolean;
-}
-
-function getPositionDetails(positionDetails: string[]): JSX.Element[] {
-  const details: JSX.Element[] = [];
-  positionDetails.forEach((detail) => {
-    details.push(
-      <li style={{ paddingBottom: "4px" }} className="Site-small-p">
-        {detail}
-      </li>
-    );
-  });
-  return details;
 }
 
 const Position = function render(props: PositionProps) {
@@ -43,12 +32,14 @@ const Position = function render(props: PositionProps) {
             </div>
           </Button>
         </Col>
-        <Col xs="3" md="4" className="text-end">
+        <Col xs="3" className="text-end">
           <h4 className="Site-small-text Color-tertiary-text">{time}</h4>
         </Col>
       </Row>
       {showDetails ? (
-        <ul style={{ paddingTop: "6px" }}>{getPositionDetails(details)}</ul>
+        <ul style={{ paddingTop: "6px" }}>
+          {createHtmlListFromStringArray(details)}
+        </ul>
       ) : null}
     </div>
   );

@@ -80,6 +80,10 @@ ul {
   letter-spacing: 0.05em;
 }
 
+.Color-primary-text {
+  color: var(--site-primary-text);
+}
+
 .Color-secondary-text {
   color: var(--site-secondary-text);
 }
@@ -106,6 +110,13 @@ Nav.Link:hover {
 
 .btn-link {
   text-align: left;
+}
+
+.btn-link {
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 .btn-link:visited,
